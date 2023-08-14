@@ -23,7 +23,9 @@
   color: yellow;
   margin-right: 10px;
 }
-
+.p1, .p2, .p3, .container h2{
+  text-shadow: 0 0 3px #000000;
+}
 .container {
   display: flex;
   justify-content: space-between;
@@ -43,6 +45,7 @@ a {
   color: floralwhite;
   margin-top: 8px;
   font-size: 17px;
+  text-shadow: 1px 0 3px #000000;
 }
 a:hover {
   border-bottom: 3px solid white;
